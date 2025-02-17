@@ -40,7 +40,7 @@
   "homepage": "https://github.com/alphagov/di-ipv-cri-uk-driving-permit-front#readme",
   "packageManager": "yarn@2.4.3",
   "devDependencies": {
-    "@cucumber/cucumber": "10.0.1",
+    "@cucumber/cucumber": "11.2.0",
     "@eslint/eslintrc": "^3.2.0",
     "@eslint/js": "^9.15.0",
     "@playwright/test": "^1.48.2",
