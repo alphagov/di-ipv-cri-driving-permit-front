@@ -9,13 +9,13 @@ Feature: DVA Driving licence - Auth Source - Welsh Translation
 
     @mock-api:dl-dva-auth-success @language-regression
     Scenario: DVA Auth Source - Welsh Translation Tests - Check Your Answers Page
-        And I should be on the Driving Licence check your details page Gwirio manylion eich trwydded yrru cerdyn-llun yn y DU – Profi pwy ydych chi – GOV.UK
+        And I should be on the Driving Licence check your details page Gwirio manylion eich trwydded yrru cerdyn-llun yn y DU – Profi pwy ydych chi – GOV.UK One Login
 
     @mock-api:dl-dva-auth-success @language-regression
     Scenario: DVA Auth Source - Welsh Translation Tests - Consent Page
         When I click on the Yes radio button
         Then I click on the Confirm and Continue button
-        And I should be on the DVA consent page Rydym angen gwirio manylion eich trwydded yrru – Profi pwy ydych chi – GOV.UK
+        And I should be on the DVA consent page Rydym angen gwirio manylion eich trwydded yrru – Profi pwy ydych chi – GOV.UK One Login
         And I click on the DVA consent checkbox
         When I click on the Continue button
 
@@ -55,6 +55,6 @@ Feature: DVA Driving licence - Auth Source - Welsh Translation
     Scenario: DVA Auth Source - Welsh Translation Tests - Consent Page Text
         When I click on the Yes radio button
         Then I click on the Confirm and Continue button
-        And I should be on the DVA consent page Rydym angen gwirio manylion eich trwydded yrru – Profi pwy ydych chi – GOV.UK
+        And I should be on the DVA consent page Rydym angen gwirio manylion eich trwydded yrru – Profi pwy ydych chi – GOV.UK One Login
         And I can see the consent page title as Rydym angen gwirio manylion eich trwydded yrru gyda'r DVA
         And I can see the consent page text as Caniatau DVA i wirio eich manylion trwydded yrru

@@ -790,10 +790,10 @@
   dependencies:
     levn "^0.4.1"
 
-"@govuk-one-login/di-ipv-cri-common-express@10.1.0":
-  version "10.1.0"
-  resolved "https://registry.yarnpkg.com/@govuk-one-login/di-ipv-cri-common-express/-/di-ipv-cri-common-express-10.1.0.tgz#343c5a9d814c725a2f73a0aff417c0b278e8b380"
-  integrity sha512-2B1gHd92BgvHG4i0iV7PqIC3QbYLvXoKee8MxjuXsbV76+rei66pXLDhSOl/l2CiJGWKIvV0l8itSws3+/slFg==
+"@govuk-one-login/di-ipv-cri-common-express@10.3.0":
+  version "10.3.0"
+  resolved "https://registry.yarnpkg.com/@govuk-one-login/di-ipv-cri-common-express/-/di-ipv-cri-common-express-10.3.0.tgz#083833c18f8a33d5d7b0c76a5a9626a0f163af25"
+  integrity sha512-sxZKnKo8pyuga3a+v1FkPkNh0kqFXWEG2hsy2unWNH97g8Og+pkzLJILQU/pVw5EI640OjbunejiBi/FNNcdNw==
   dependencies:
     async "^3.2.6"
     compression "^1.7.5"
