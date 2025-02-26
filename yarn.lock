@@ -3747,13 +3747,13 @@ hmpo-components@7.1.0:
   optionalDependencies:
     fsevents "~2.3.3"
 
-hmpo-config@3.0.0:
-  version "3.0.0"
-  resolved "https://registry.yarnpkg.com/hmpo-config/-/hmpo-config-3.0.0.tgz#78aa5bf7511f7c3fc734aec9d13e938763a5a226"
-  integrity sha512-pBVwcGhUmqMdc+R89T3tpkmATGuUDWquOD+JovMyxK5KCZJybdS56Xz95C0e6XWY9+dhw04ov2NPy3zwaLRuRg==
+hmpo-config@4.0.0:
+  version "4.0.0"
+  resolved "https://registry.yarnpkg.com/hmpo-config/-/hmpo-config-4.0.0.tgz#3bbf113167b6f2f6ba3d4bcfd57cd4b78294cdbb"
+  integrity sha512-kcoczwDk/OXT2fd+RjbkyyxbH8RxPcQJJV6FVctG5KxAP27a+tJPSkTeSQl2F1VPwaworYtKYE4ETjlAKxTkVg==
   dependencies:
     app-root-path "^3.1.0"
-    debug "^4.3.4"
+    debug "^4.3.7"
     deep-clone-merge "^1.5.5"
     js-yaml "^4.1.0"
     json5 "^2.2.3"
