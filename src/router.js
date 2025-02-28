@@ -6,12 +6,10 @@ const setAxiosDefaults = commonExpress.lib.axios;
 const steps = require("./app/drivingLicence/steps");
 const fields = require("./app/drivingLicence/fields");
 const featureSets = require("./app/drivingLicence/featureSets");
-const overloadProtection = require("./app/drivingLicence/overloadProtection");
 
 const wizard = require("hmpo-form-wizard");
 
 const init = (router) => {
-  router.use(overloadProtection);
 
   router.use(getGTM);
   router.use(getLanguageToggle);
