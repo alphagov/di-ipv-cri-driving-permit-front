@@ -12,7 +12,7 @@ govuk:
     englishVisuallyHidden: Change to English
     welshLanguage: Cymraeg
     welshVisuallyHidden: Newid yr iaith ir Gymraeg
-  serviceName: Prove your identity
+  serviceName: " "
   backLink: Back
   errorSummaryTitle: There is a problem
   error: Error
